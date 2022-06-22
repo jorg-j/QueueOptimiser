@@ -1,2 +1,3 @@
-md2pdf
 loguru
+pandas
+matplotlib

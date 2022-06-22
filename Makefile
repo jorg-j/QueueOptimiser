@@ -23,7 +23,7 @@ container: deep-clean build
 	docker-compose -f docker_compose/docker-compose.yml up
 
 deep-clean:
-	docker rm 
+	docker rm Queue_Optimiser
 	docker image rm queueoptimiser
 
 release:

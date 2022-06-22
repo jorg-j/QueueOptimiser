@@ -8,12 +8,12 @@ Tooling to assist in optimising queues based on throughput rate
 - [ ] Structure
 - [ ] User Config
 - [ ] User Data input (Excel?)
-- [ ] Markdown generator
+- [ ] Markdown generator (Pandoc? will need to run on the container OS)
 
 # TODO Deployment/Testing
 
-- [ ] Dockerfile
-- [ ] Docker-compose
+- [X] Dockerfile
+- [X] Docker-compose
 - [ ] Vagrant?
 - [ ] Mocks
 - [X] Unit testing - Initialised, vscode variant of unittesting

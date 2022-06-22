@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  Queue_Optimiser:
+    image: queueoptimiser
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./data:/app/data

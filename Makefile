@@ -19,8 +19,8 @@ run: venv
 build: clean
 	docker build -t queueoptimiser .
 
-container: deep-clean build
-	docker-compose -f docker_compose/docker-compose.yml up
+container: build
+	docker-compose -f docker-compose.yml up
 
 deep-clean:
 	docker rm Queue_Optimiser

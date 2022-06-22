@@ -4,7 +4,7 @@ Tooling to assist in optimising queues based on throughput rate
 
 # TODO Tooling
 
-- [ ] requirements.txt
+- [X] requirements.txt - Initialised
 - [ ] Structure
 - [ ] User Config
 - [ ] User Data input (Excel?)
@@ -16,7 +16,7 @@ Tooling to assist in optimising queues based on throughput rate
 - [ ] Docker-compose
 - [ ] Vagrant?
 - [ ] Mocks
-- [ ] Unit testing
+- [X] Unit testing - Initialised, vscode variant of unittesting
 
 # TODO Features/Functionality
 
